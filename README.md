@@ -1,4 +1,4 @@
-# Essential Audio
+## Essential Audio
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/zerosonesfun/flarum-essential-audio.svg)](https://packagist.org/packages/zerosonesfun/flarum-essential-audio)
 
@@ -31,3 +31,4 @@ composer remove zerosonesfun/flarum-essential-audio
 ### Links
 
 - [Packagist](https://packagist.org/packages/zerosonesfun/flarum-essential-audio)
+- [Github](https://github.com/zerosonesfun/flarum-essential-audio)

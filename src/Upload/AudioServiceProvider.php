@@ -6,7 +6,6 @@ use Flarum\Foundation\AbstractServiceProvider;
 use FoF\Upload\Contracts\Template;
 use FoF\Upload\File;
 use FoF\Upload\Helpers\Util;
-use Flarum\Settings\SettingsRepositoryInterface;
 
 class AudioTemplate implements Template
 {

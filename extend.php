@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Zerosonesfun\EssentialAudio;
+namespace ZerosOnesFun\EssentialAudio;
 
 use Flarum\Extend;
 use s9e\TextFormatter\Configurator;
@@ -31,5 +31,7 @@ return [
             </div>
         </div>'
         );
-    })
+    }),
+    (new Extend\ServiceProvider())
+    ->register(Upload\AudioServiceProvider::class)
 ];

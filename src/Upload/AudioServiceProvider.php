@@ -6,23 +6,22 @@ use Flarum\Foundation\AbstractServiceProvider;
 use FoF\Upload\Contracts\Template;
 use FoF\Upload\File;
 use FoF\Upload\Helpers\Util;
-use Flarum\Settings\SettingsRepositoryInterface;
 
 class AudioTemplate implements Template
 {
     public function tag(): string
     {
-        return 'aux';
+        return 'audio';
     }
 
     public function name(): string
     {
-        return 'Audio template';
+        return 'Audio [play][/play]';
     }
 
     public function description(): string
     {
-        return 'Audio template to use with Essential Audio';
+        return 'Audio template for Essential Audio extension.';
     }
 
     public function preview(File $file): string

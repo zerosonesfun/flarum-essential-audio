@@ -177,11 +177,11 @@ var Audio = /*#__PURE__*/function (_Component) {
     _Component.prototype.oninit.call(this, vnode);
 
     var body = document.body;
-    body.classList.add("Audio");
+    body.classList.add("audio");
     Object(flarum_extend__WEBPACK_IMPORTED_MODULE_1__["extend"])(flarum_common_components_PostStream__WEBPACK_IMPORTED_MODULE_3___default.a.prototype, 'view', function (vnode) {
       if (vnode.children && vnode.children.splice) {
         var insert = m("script", {
-          src: "/assets/extensions/zerosonesfun-essential-audio/essential-audio.js"
+          src: app.forum.attribute('baseUrl') + "/assets/extensions/zerosonesfun-essential-audio/essential-audio.js"
         });
         vnode.children.splice(1, 0, insert);
       }

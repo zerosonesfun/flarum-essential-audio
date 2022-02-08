@@ -24,14 +24,14 @@ return [
             '[play]{URL}[/play]',
             '<div id="player_box">
              <div>
-                <div class="essential_audio" data-url="{URL}"><span class="no_js"><a href="#" onClick="window.location.href=window.location.href">refresh to play</a></span></div>
+                <div class="essential_audio" data-url="{URL}"><span class="no_js"><a href="#" onClick="window.location.href=window.location.href"><i class="far fa-play-circle"></i></a></span></div>
              </div>
              </div>'
         );
         $config->BBCodes->addCustom(
             '[download]{URL}[/download]',
             '<div id="download-button-ea">
-             <a href="{URL}" title="download" class="download-button-ea-link">Download (right-click)</a>
+            <i class="fas fa-download"></i> <a href="{URL}" title="download" class="download-button-ea-link" download>Download</a>
             </div>'
         );
     }),

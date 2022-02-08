@@ -26,8 +26,7 @@ class DownloadTemplate implements Template
 
     public function preview(File $file): string
     {
-        return '[play]' . $file->url . '[/play]';
-        return '[download]' . $file->url . '[/download]';
+        return '[play]' . $file->url . '[/play][download]' . $file->url . '[/download]';
     }
 }
 
